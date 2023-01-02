@@ -1,0 +1,11 @@
+.env
+bin/*
+include
+lib
+local/**
+main_bkup.py
+lib64
+share
+**/.idea
+**/__pycache__*
+snippets_testing.ipynb

@@ -1,0 +1,23 @@
+This is a very simple chatbot for discord that calls the openai stack and 
+has a conversation with you, almost exactly like the ChatGPT chat bot. It
+calls the "text-davinci-003" model from openai. The only difference I can 
+see is that it won't remember context.
+
+To use it I would update some stuff, like get your keys from the env 
+variables. This is just to keep it as simple as possible for now.
+
+Written using discord.py
+
+You will have to add your **discord bot token*** and your **openai key** to the bot file.
+
+requirements:
+- pip install discord
+- pip install openai
+
+to run, just python3 main.py
+
+The default activation prompt is ">", i.e. 
+type ">write me a story" to have the bot send you a story.
+
+Licensed under the GPLv3
+
